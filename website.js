@@ -59,7 +59,7 @@ function nextFrame() {
         ballSpeed[1] *= -1.1;
         ballSpeed[0] *= 1.1;
         score += 1;
-        ballXSpeedMulti = Math.random()+0.5
+        ballXSpeedMulti = (Math.random()*0.1)+0.95
         updateScore()
     };
     if(ballPosition[1] > 600) {
