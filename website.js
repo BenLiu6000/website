@@ -31,7 +31,7 @@ let playerRacketPosition = [170,570];
 
 let score = 0;
 
-let ballXSpeedMulti = (Math.random()*0.2)+0.9;
+let ballXSpeedMulti = (Math.random()*0.1)+0.95;
 
 function nextFrame() {
     if(leftArrowPressed) {
