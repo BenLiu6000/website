@@ -1,0 +1,46 @@
+#h1 {
+    color:aquamarine;
+}
+
+#catText {
+    color:darkgoldenrod;
+    font-size:50px;
+}
+
+#catImage {
+    position:absolute;
+    z-index:10;
+    top:250px;
+    left:50px;
+    border-radius:10%;
+}
+
+#frame {
+    z-index:0;
+    position:absolute;
+    top:210px;
+    left:10px;
+    border-radius:10%;
+}
+
+
+#pong {
+    position:absolute;
+    top:50px;
+    left:700px;
+}
+
+#pongScoreDisplay {
+    position:absolute;
+    top:350px;
+    left:820px;
+    font-size:80px;
+    visibility:0.5;
+    color:gray;
+}
+
+#pongControls {
+    position:absolute;
+    top:670px;
+    left:720px;
+}
