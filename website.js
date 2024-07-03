@@ -25,7 +25,7 @@ let leftArrowPressed = false;
 let rightArrowPressed = false;
 
 let ballPosition = [200,300]
-let ballSpeed = [10,-5]
+let ballSpeed = [10,-10]
 
 let playerRacketPosition = [170,570];
 
@@ -64,7 +64,7 @@ function nextFrame() {
     };
     if(ballPosition[1] > 600) {
          ballPosition = [200,300]
-         ballSpeed = [10,-5]
+         ballSpeed = [10,-10]
          score = 0
          updateScore()
     }
